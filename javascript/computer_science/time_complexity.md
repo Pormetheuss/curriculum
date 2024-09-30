@@ -50,10 +50,10 @@ Let's go back to our `oddNumbersLessThanTen function`. How many steps does our a
 
 1. We have a loop. For each iteration of the loop, we do the following:
 
-    1. Compare `currentNumber` to see if it is less than 10. That is 1 step.
-    1. We then check if currentNumber is odd. That is 1 step.
-    1. If it is then we output it to the terminal. That's 1 step every 2 iterations.
-    1. We increase `currentNumber` by 1. That is 1 step.
+   1. Compare `currentNumber` to see if it is less than 10. That is 1 step.
+   1. We then check if currentNumber is odd. That is 1 step.
+   1. If it is then we output it to the terminal. That's 1 step every 2 iterations.
+   1. We increase `currentNumber` by 1. That is 1 step.
 
 1. To exit the loop, we need to compare `currentNumber` one last time to see that it is not less than ten any more. That is one last step.
 
@@ -221,7 +221,7 @@ You want to avoid this if at all possible, otherwise you won't be processing muc
 
 #### O(N!) - Factorial complexity
 
-A factorial is the product of the sequence of *n* integers. The factorial of 4(4!) is 4 \* 3 \* 2 \* 1.
+A factorial is the product of the sequence of _n_ integers. The factorial of 4(4!) is 4 \* 3 \* 2 \* 1.
 
 You will come across Factorial Complexity if you ever need to calculate permutations or combinations. If you have an array and have to work out all the combinations you can make from the array, that is a Factorial complexity. It's manageable for a small number of items, but the leap with each new item in a dataset can be huge.
 
@@ -334,3 +334,5 @@ This section contains helpful links to related content. It isn't required, so co
 - It's not a free resource but [A common sense guide to data structures and algorithms](https://pragprog.com/titles/jwdsal2/a-common-sense-guide-to-data-structures-and-algorithms-second-edition/) does a great job making these topics approachable to people not familiar with some of the mathematical terminology used.
 
 - In this video, [Introduction to Big O Notation and Time Complexity](https://www.youtube.com/watch?v=D6xkbGLQesk), the author provides a step-by-step process for how to analyze and understand time complexity for various algorithms.
+
+Time Complexity is cool!!!
